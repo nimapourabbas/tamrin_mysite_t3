@@ -21,3 +21,5 @@ blog=[
 # Create your views here.
 def home_view(request):
     return  render(request,"index.html",{"post":blog}) 
+def home_about(request):
+    return render(request,'about.html')
