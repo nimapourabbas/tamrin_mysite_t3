@@ -19,5 +19,5 @@ blog=[
 ]
 
 # Create your views here.
-def view(request):
+def home_view(request):
     return  render(request,"index.html",{"post":blog}) 
